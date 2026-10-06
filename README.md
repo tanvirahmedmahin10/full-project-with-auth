@@ -1,4 +1,4 @@
-# 📰 Bangla News Project
+# 📰 খবরিকা
 
 A modern **full-stack news web application** built with **Next.js**, **TypeScript**, **MongoDB**, and **Better Auth**.
 

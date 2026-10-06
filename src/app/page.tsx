@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import MainNewsCard, { INews } from "./Components/MainNewsCard";
 import NewsCard from "./Components/NewsCard";
 import Link from "next/link";

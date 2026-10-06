@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+
 export interface INews{
       id: string
   title: string
@@ -20,7 +20,7 @@ const MainNewsCard = ({mainNews}:{mainNews:INews[]}) => {
     
     return (
       <Link href={`/article/${firstNews.id}`}>
-       <div className="card bg-base-100 w-[400px] shadow-sm">
+       <div className="card bg-base-100 w-100 shadow-sm">
   <figure>
     <Image
       src={firstNews.imageUrl}
